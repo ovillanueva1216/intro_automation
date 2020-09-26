@@ -1,0 +1,254 @@
+{
+  "id": "24d043bd-b2e1-4509-9dc4-4f5e5c4d30d4",
+  "version": "2.0",
+  "name": "SauceLab",
+  "url": "https://www.promodescuentos.com/",
+  "tests": [{
+    "id": "cc7afb46-9087-4496-9919-60df9991c634",
+    "name": "Login Sauce demo",
+    "commands": [{
+      "id": "c18bd9ae-588c-4d8d-9332-10e630d31415",
+      "comment": "",
+      "command": "open",
+      "target": "/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07af8f17-7470-4489-bb66-00ed0b2ebb3b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1115x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4cc8f9f7-64e5-46ca-8012-82d211f6cca5",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"username\"]",
+      "targets": [
+        ["css=*[data-test=\"username\"]", "css:data-attr"],
+        ["id=user-name", "id"],
+        ["css=#user-name", "css:finder"],
+        ["xpath=//input[@id='user-name']", "xpath:attributes"],
+        ["xpath=//div[@id='login_button_container']/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a70197e-80e3-4cd0-99a2-dc4aaed6db76",
+      "comment": "",
+      "command": "type",
+      "target": "css=*[data-test=\"username\"]",
+      "targets": [
+        ["css=*[data-test=\"username\"]", "css:data-attr"],
+        ["id=user-name", "id"],
+        ["css=#user-name", "css:finder"],
+        ["xpath=//input[@id='user-name']", "xpath:attributes"],
+        ["xpath=//div[@id='login_button_container']/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "standard_user"
+    }, {
+      "id": "8c9b2de2-0227-4c27-867a-8bdd301fa2ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=*[data-test=\"password\"]",
+      "targets": [
+        ["css=*[data-test=\"password\"]", "css:data-attr"],
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login_button_container']/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0986f31e-8774-499a-83b3-eee4daac0aa3",
+      "comment": "",
+      "command": "type",
+      "target": "css=*[data-test=\"password\"]",
+      "targets": [
+        ["css=*[data-test=\"password\"]", "css:data-attr"],
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login_button_container']/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "secret_sauce"
+    }, {
+      "id": "1a492052-7695-4720-8d9b-e3531e1bc5e3",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-button",
+      "targets": [
+        ["id=login-button", "id"],
+        ["css=#login-button", "css:finder"],
+        ["xpath=//input[@id='login-button']", "xpath:attributes"],
+        ["xpath=//div[@id='login_button_container']/div/form/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93f7127a-1193-40fb-a25f-a8f01bf66479",
+      "comment": "",
+      "command": "click",
+      "target": "css=.app_logo",
+      "targets": [
+        ["css=.app_logo", "css:finder"],
+        ["xpath=//div[@id='header_container']/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a663d249-6185-44b8-95c2-e3d4fb0e3c9e",
+    "name": "promo descuentos ",
+    "commands": [{
+      "id": "cfe0ef8b-d71e-4f30-92e8-ce73c2b65d20",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.promodescuentos.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "972b42cf-aab9-4292-aae8-8c0ea7996a9f",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.autoSuggest--loading > .autoSuggest-input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//main[@id='main']/div/header/div/div/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "5000"
+    }, {
+      "id": "06684c40-6a1e-417d-a10b-cadfcd4d175d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1115x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a2fddbc-d5cb-4854-a970-0c00bf7d6dac",
+      "comment": "",
+      "command": "click",
+      "target": "css=#thread_509816 .thread-image",
+      "targets": [
+        ["css=#thread_509816 .thread-image", "css:finder"],
+        ["xpath=//img[@alt=\"Mc Donald's: 4 Big Mac (Happy week + Qr Mercado Pago)\"]", "xpath:img"],
+        ["xpath=//article[@id='thread_509816']/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/article/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7594c01e-fb41-43d5-8082-9848e4134803",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.thread-image",
+      "targets": [
+        ["css=.thread-image", "css:finder"],
+        ["xpath=//img[@alt=\"Mc Donald's: 4 Big Mac (Happy week + Qr Mercado Pago)\"]", "xpath:img"],
+        ["xpath=//div[@id='thread_509816']/div/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": "5000"
+    }, {
+      "id": "0ac86d35-fc69-4d9d-9bbb-11ecd8e3d7c9",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.thread-price",
+      "targets": [
+        ["css=.thread-price", "css:finder"],
+        ["xpath=//div[@id='thread_509816']/div/div[3]/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bbbe227-f74c-4719-8102-86f4f94addc1",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.thread-price",
+      "targets": [
+        ["css=.thread-price", "css:finder"],
+        ["xpath=//div[@id='thread_509816']/div/div[3]/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span", "xpath:position"]
+      ],
+      "value": "$47"
+    }, {
+      "id": "736f9786-a529-41b9-b7c4-7c08ce5dbff7",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.btn--facebook > .space--ml-2",
+      "targets": [
+        ["css=.btn--facebook > .space--ml-2", "css:finder"],
+        ["xpath=//div[@id='thread_details_509816']/div[2]/div[2]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Publicar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76f499ee-e5b4-4513-821f-cf275b421973",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.twitter-share-button > .space--ml-2",
+      "targets": [
+        ["css=.twitter-share-button > .space--ml-2", "css:finder"],
+        ["xpath=//div[@id='thread_details_509816']/div[2]/div[2]/div[2]/a[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Twittear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "33c278ff-569d-4111-be70-e83eab7a6a3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cept-comment-link",
+      "targets": [
+        ["linkText=52", "linkText"],
+        ["css=.cept-comment-link", "css:finder"],
+        ["xpath=//div[@id='thread_509816']/div/div[5]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.promodescuentos.com/ofertas/mc-donalds-happy-week-qr-mercado-pago-509816#comments')]", "xpath:href"],
+        ["xpath=//div[5]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'52')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c758a7a-4ae5-4340-a478-92aac8ce11a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lbox--v-3 > .space--l-2",
+      "targets": [
+        ["css=.lbox--v-3 > .space--l-2", "css:finder"],
+        ["xpath=//section[@id='comments']/section/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Mejores comentarios')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "851b50a0-a25e-4736-827e-95fd98953e7d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.lbox--v-3 > .space--l-2",
+      "targets": [
+        ["css=.lbox--v-3 > .space--l-2", "css:finder"],
+        ["xpath=//section[@id='comments']/section/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Mejores comentarios')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "251bf80d-8290-4802-ab05-b8c04a543310",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cc7afb46-9087-4496-9919-60df9991c634"]
+  }],
+  "urls": ["https://www.saucedemo.com/", "https://www.promodescuentos.com/"],
+  "plugins": []
+}
